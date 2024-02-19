@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #bcb8b1;
+  background-color: #A5A58D;
 }
 
 .profile, .likes {
-  background-color: #8a817c;
-  color: #f4f3ee;
+  background-color: #B7B7A4;
+  color: #FFE8D6;
   margin-left: 25%;
   margin-right: 25%;
   border-radius: 12px;
