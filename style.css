@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #bcb8b1;
+}
+
+.profile, .likes {
+  background-color: #8a817c;
+  color: #f4f3ee;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0.2, 0.2, 0.2, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  margin-bottom: 50px;
+}
+
+
+.profile .pfp{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.profile .pfp:hover, .pfp:hover {
+  transform: scale(1.1);
+}
+
+.description {
+  margin-left: 20px;
+}
+
+.likes {
+  justify-content: space-between;
+  padding-top: 75px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+  position: relative;
+}
+
+.likes h2 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.8s ease;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  filter:blur(5px);
+  color: white;
+}
+
+
+.box:hover {
+  transform: scale(1.1);
+  filter:blur(0px);
+}
+
+#box1 {
+  background-image: url('images/Sushiimg.jpg');
+}
+
+#box2 {
+  background-image: url('images/RockClimbing.jpg');
+}
+
+
+#box3 {
+  background-image: url('images/gameimg.jpg');
+}
+
+.box ul {
+  font-weight: bold;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
